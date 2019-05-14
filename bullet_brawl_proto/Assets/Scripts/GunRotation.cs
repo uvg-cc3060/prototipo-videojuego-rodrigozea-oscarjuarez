@@ -16,6 +16,6 @@ public class GunRotation : MonoBehaviour
         //Vector3 direction = Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position;
         //Quaternion rotation = Quaternion.LookRotation(direction);
         //transform.rotation = Quaternion.Lerp(transform.rotation, rotation, speed * Time.deltaTime);
-        //Debug.Log(transform.rotation);
+        Debug.Log(transform.rotation);
     }
 }
